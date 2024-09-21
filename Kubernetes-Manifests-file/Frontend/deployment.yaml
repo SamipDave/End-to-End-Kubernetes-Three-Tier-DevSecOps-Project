@@ -29,6 +29,6 @@ spec:
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
-            value: "k8s-threetie-mainlb-11c5700e30-1062260649.us-east-1.elb.amazonaws.com"
+            value: "go-web-app.local"
         ports:
         - containerPort: 3000
