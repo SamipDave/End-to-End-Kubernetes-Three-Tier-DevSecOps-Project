@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: "*"
+    - host: go-web-app.local
       http:
         paths:
           - path: /api
